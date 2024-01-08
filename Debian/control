@@ -1,0 +1,13 @@
+Source: wlsgen
+Section: utils
+Priority: optional
+Maintainer: Luciano Otto Rodrigues lucianoottor.sup@gmail.com
+Build-Depends: debhelper (>= 11), dh-make
+Standards-Version: 4.5.1
+Homepage: https://example.com/wlsgen
+
+Package: wlsgen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wordlist Generator (wlsgen)
+ Your description goes here.
